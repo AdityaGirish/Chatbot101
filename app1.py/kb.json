@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "question": "hey there",
+      "answer": "hello"
+    },
+    {
+      "question": "hello",
+      "answer": "hello"
+    },
+    {
+      "question": "what is the capital of France",
+      "answer": "Paris"
+    },
+    {
+      "question": "how does photosynthesis work",
+      "answer": "Photosynthesis is a process used by plants to convert light energy into chemical energy."
+    },
+    {
+      "question": "who wrote the novel 'Pride and Prejudice'",
+      "answer": "Jane Austen"
+    },
+    {
+      "question": "what is the formula for calculating the area of a circle",
+      "answer": "The formula for the area of a circle is A = \u00cf\u20acr\u00c2\u00b2, where r is the radius of the circle."
+    },
+    {
+      "question": "what are the primary colors",
+      "answer": "The primary colors are red, blue, and yellow."
+    },
+    {
+      "question": "what is the tallest mountain in the world",
+      "answer": "Mount Everest"
+    },
+    {
+      "question": "how does gravity work",
+      "answer": "Gravity is a force of attraction between masses."
+    },
+    {
+      "question": "what is digital marketing",
+      "answer": "Digital marketing refers to the use of digital channels, such as websites, social media, email, search engines, and online advertising, to promote products or services."
+    },
+    {
+      "question": "what are some common digital marketing strategies",
+      "answer": "Common digital marketing strategies include search engine optimization (SEO), content marketing, social media marketing, pay-per-click (PPC) advertising, email marketing, and influencer marketing."
+    },
+    {
+      "question": "how does SEO work",
+      "answer": "SEO involves optimizing a website's content and structure to improve its visibility on search engines, aiming to increase organic (non-paid) traffic."
+    },
+    {
+      "question": "what is water made up of",
+      "answer": "h20"
+    },
+    {
+      "question": "how does the internet work",
+      "answer": "The internet is a global network of interconnected computers that communicate using a standardized protocol called TCP/IP."
+    },
+    {
+      "question": "what is the human respiratory system",
+      "answer": "The human respiratory system is responsible for taking in oxygen and expelling carbon dioxide, allowing us to breathe and obtain the necessary oxygen for cellular respiration."
+    },
+    {
+      "question": "how do vaccines work",
+      "answer": "Vaccines stimulate the immune system to produce an immune response against a specific pathogen, without causing the disease itself, providing immunity and protection."
+    },
+    {
+      "question": "what is climate change",
+      "answer": "Climate change refers to long-term shifts in global or regional climate patterns, often attributed to human activities such as burning fossil fuels and deforestation."
+    },
+    {
+      "question": "what is the importance of recycling",
+      "answer": "Recycling helps reduce waste, conserve resources, save energy, and minimize pollution, contributing to a more sustainable and environmentally-friendly future."
+    },
+    {
+      "question": "how does the digestive system work",
+      "answer": "The digestive system processes food, breaking it down into nutrients that can be absorbed and utilized by the body for energy, growth, and repair."
+    },
+    {
+      "question": "what is the purpose of the circulatory system",
+      "answer": "The circulatory system, composed of the heart, blood vessels, and blood, transports oxygen, nutrients, hormones, and waste products throughout the body."
+    },
+    {
+      "question": "how do credit cards work",
+      "answer": "Credit cards allow users to borrow money up to a certain limit, and users must pay back the borrowed amount, often with interest, within a specified time frame."
+    },
+    {
+      "question": "what is the significance of the Bill of Rights",
+      "answer": "The Bill of Rights is the first ten amendments to the United States Constitution, guaranteeing fundamental rights and freedoms to citizens, such as freedom of speech and religion."
+    },
+    {
+      "question": "how does the stock market work",
+      "answer": "The stock market is a marketplace where buyers and sellers trade shares of publicly listed companies, providing companies with capital and investors with ownership."
+    },
+    {
+      "question": "what are IIMs",
+      "answer": "Indian Institutes of Management (IIMs) are a group of premier business schools in India that offer postgraduate, doctoral, and executive education programs in management."
+    },
+    {
+      "question": "when were the first IIMs established",
+      "answer": "The first IIM, IIM Calcutta, was established in 1961. It was followed by IIM Ahmedabad and IIM Bangalore in the same year."
+    },
+    {
+      "question": "how many IIMs are there in India",
+      "answer": "As of now, there are 20 IIMs in India, located in various cities across the country."
+    },
+    {
+      "question": "what is the Common Admission Test (CAT)",
+      "answer": "The Common Admission Test (CAT) is a competitive entrance examination used by IIMs and other top business schools in India for admission to their MBA and other management programs."
+    },
+    {
+      "question": "what are the flagship programs offered by IIMs",
+      "answer": "IIMs offer various management programs, with the two-year Post Graduate Program in Management (PGP) being one of their flagship programs. Other programs include Fellow Program in Management (FPM) and Executive MBA programs."
+    },
+    {
+      "question": "what is the ranking of IIMs globally",
+      "answer": "IIMs are consistently ranked among the top management institutes globally, and their rankings may vary based on different parameters and ranking agencies."
+    },
+    {
+      "question": "who are some notable alumni of IIMs",
+      "answer": "IIMs have produced numerous successful alumni who have made significant contributions in various fields, including business, politics, academia, and more."
+    },
+    {
+      "question": "what is the selection process for IIMs",
+      "answer": "The selection process for IIMs typically involves a combination of CAT scores, Written Ability Test (WAT), Group Discussion (GD), and Personal Interview (PI). The weightage given to each component may vary."
+    },
+    {
+      "question": "how do I prepare for CAT",
+      "answer": "CAT preparation involves rigorous study of quantitative aptitude, verbal ability, data interpretation, and logical reasoning. Many aspirants join coaching classes, take mock tests, and practice sample papers."
+    },
+    {
+      "question": "what are the career opportunities after completing an MBA from IIMs",
+      "answer": "Graduates from IIMs have diverse career opportunities in fields such as consulting, finance, marketing, operations, entrepreneurship, and more, both in India and internationally."
+    },
+    {
+      "question": "iimb",
+      "answer": "Indian Institute of Management Bangalore is situated in Bangalore"
+    },
+    {
+      "question": "where is iimb",
+      "answer": "Bangalore"
+    },
+    {
+      "question": "where is iimb",
+      "answer": "Indian Institute of Management Calcutta is situated in Calcutta"
+    },
+    {
+      "question": "what is formula for water",
+      "answer": "h20"
+    },
+    {
+      "question": "h20",
+      "answer": "h20"
+    },
+    {
+      "question": "water formula",
+      "answer": "h20"
+    },
+    {
+      "question": "what are cookies",
+      "answer": "a baked or cooked snack or dessert that is typically small, flat and sweet"
+    },
+    {
+      "question": "what are cryptocurrency",
+      "answer": "a digital currency in which transactions are verified and records maintained by a decentralized system using cryptography, rather than by a centralized authority."
+    },
+    {
+      "question": "vtu",
+      "answer": "scam"
+    },
+    {
+      "question": "Thank you",
+      "answer": "Welcome :) "
+    },
+    {
+      "question": "Thanks",
+      "answer": "Welcome :) "
+    }
+  ]
+}

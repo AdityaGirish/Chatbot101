@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Bot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .chat-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            max-height: 300px;
+            overflow-y: scroll;
+        }
+        .user-message, .bot-message {
+            margin-bottom: 10px;
+        }
+        .user-message {
+            text-align: right;
+            color: blue;
+        }
+        .bot-message {
+            text-align: left;
+            color: green;
+        }
+        .input-box {
+            display: flex;
+        }
+        .input-box textarea {
+            flex: 1;
+            padding: 5px;
+        }
+        .input-box button {
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chat Bot</h1>
+        <div class="chat-box" id="chat-box">
+            <!-- Chat messages will be displayed here -->
+        </div>
+        <div class="input-box">
+            <textarea id="user-input" placeholder="Enter your message..."></textarea>
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function sendMessage() {
+            var userMessage = document.getElementById("user-input").value;
+            if (userMessage.trim() !== "") {
+                // Display user message
+                appendMessage("user-message", "You: " + userMessage);
+
+                // Send user message to the server
+                fetch("/send", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ message: userMessage })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Display bot response
+                    appendMessage("bot-message", "Bot: " + data.response);
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                });
+
+                // Clear input field
+                document.getElementById("user-input").value = "";
+            }
+        }
+
+        function appendMessage(className, message) {
+            var chatBox = document.getElementById("chat-box");
+            var messageDiv = document.createElement("div");
+            messageDiv.className = className;
+            messageDiv.textContent = message;
+            chatBox.appendChild(messageDiv);
+
+            // Scroll to the bottom of the chat box
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+    </script>
+</body>
+</html>
